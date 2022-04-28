@@ -1,0 +1,54 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: goldenrod;
+    margin-bottom: 10px;
+
+    /* TEST */
+    height: 150px;
+}
+
+/* Main */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: purple;
+    width: 66%;
+    color: white;
+}
+
+.main-content {
+    padding: 10px;
+}
+.main-content h2 {
+    margin: 10px 0;
+}
+article {
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: violet;
+    width: 33%;
+
+    /* TEST */
+    height: 300px;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+    margin-top: 10px;
+
+    /* TEST */
+    height: 150px;
+}
