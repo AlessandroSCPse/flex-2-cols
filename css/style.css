@@ -18,6 +18,7 @@ header {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 main {
@@ -36,12 +37,24 @@ article {
     margin-bottom: 20px;
 }
 
+/* Aside */
 aside {
     background-color: violet;
     width: 33%;
-
-    /* TEST */
-    height: 300px;
+}
+.aside-content {
+    padding: 20px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertising {
+    width: 80%;
+    height: 200px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
 }
 
 /* Footer */
